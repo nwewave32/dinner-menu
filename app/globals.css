@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* ── DinnerTube 디자인 토큰 ─────────────────────────────
+   저녁 식탁 무드: 깊은 밤색 배경 + 따뜻한 호박색 포인트.
+   색/간격/타이포는 전부 여기서만 정의하고 컴포넌트는 토큰만 쓴다. */
+@theme {
+  /* 배경 계층 */
+  --color-night-950: #0b0d13;
+  --color-night-900: #10131c;
+  --color-night-800: #171b27;
+  --color-night-700: #1f2433;
+  --color-night-600: #2b3145;
+
+  /* 텍스트 */
+  --color-ink-100: #f4f2ec;
+  --color-ink-300: #c3c6d4;
+  --color-ink-500: #848aa0;
+
+  /* 포인트 (따뜻한 호박색) */
+  --color-ember-300: #f8cd8a;
+  --color-ember-400: #f2b95c;
+  --color-ember-500: #e8a33d;
+  --color-ember-600: #cf8c2a;
+
+  /* 상태 */
+  --color-danger-400: #e5695e;
+  --color-danger-500: #d84c40;
+
+  --font-sans: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI",
+    Roboto, sans-serif;
+
+  --radius-card: 1.25rem;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-night-950);
+  color: var(--color-ink-100);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+}
+
+/* 키보드 사용자를 위한 공통 포커스 링 */
+:focus-visible {
+  outline: 2px solid var(--color-ember-400);
+  outline-offset: 2px;
+}
+
+@keyframes dt-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: dt-fade-up 0.5s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up {
+    animation: none;
+  }
+}
