@@ -14,7 +14,7 @@ DinnerTube는 그 "딱 하나만 더"를 끊어주는 개인용 YouTube 영상 �
 ![API Key](https://img.shields.io/badge/API_key-불필요-success)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-<br />
+### 👉 [지금 바로 써보기 — dinnertube.vercel.app](https://dinnertube.vercel.app/)
 
 <img src="docs/screenshots/home.png" alt="DinnerTube 홈 — 오늘의 저녁 영상 하나만 보여주는 화면" width="760" />
 
@@ -82,7 +82,12 @@ YouTube URL을 붙여넣으면 제목·썸네일·채널을 자동으로 불러�
                                     다음 영상 없음 · 추천 없음 · 오늘은 여기까지 🌙
 ```
 
-## 🚀 30초 만에 시작하기
+## 🚀 지금 바로 써보기
+
+설치도, 가입도 필요 없습니다.
+👉 **[dinnertube.vercel.app](https://dinnertube.vercel.app/)** 을 열고 첫 번째 저녁 영상을 담아보세요.
+
+### 직접 실행해보고 싶다면
 
 ```bash
 git clone https://github.com/nwewave32/dinner-menu.git
@@ -90,8 +95,6 @@ cd dinner-menu
 npm install
 npm run dev
 ```
-
-http://localhost:3000 을 열고 첫 번째 저녁 영상을 담아보세요.
 
 ```bash
 npm test           # 테스트 실행 (Vitest)
