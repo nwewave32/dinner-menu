@@ -12,7 +12,7 @@ DinnerTube는 그 "딱 하나만 더"를 끊어주는 개인용 YouTube 영상 �
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
 ![API Key](https://img.shields.io/badge/API_key-불필요-success)
-![License](https://img.shields.io/badge/license-MIT-blue)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ### 👉 [지금 바로 써보기 — dinnertube.vercel.app](https://dinnertube.vercel.app/)
 
@@ -134,7 +134,8 @@ URL 파싱, oEmbed 오류 처리, 저장소 복구, 영상 추가 폼, 재생 �
 
 ## 📄 License
 
-MIT
+[MIT License](LICENSE) © 2026 nwewave32
+누구나 자유롭게 사용·수정·배포할 수 있습니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참고하세요.
 
 ---
 
